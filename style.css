@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box; 
+}
+html,body{
+    width: 100%;
+    height: min-content;
+}
+.navitem{
+    font-family: "Gill Sans", sans-serif;
+}
+
+.card:hover,.pb:hover{
+    
+    transform: scale(1.01);
+    transition-duration: .5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* transition-timing-function: 3s; */
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 988px) {
+
+    .pipe
+    {
+        display: none!important;
+    }
+    .maincon
+    {
+        width: 95%!important;
+    }
+    .ser{
+        border-radius: 10px!important;
+        width: 100%;
+    }
+    .loca
+    {
+        border-radius: 10px!important;
+    }
+}
